@@ -11,6 +11,7 @@ Assume that the memory locations starting at address ___data_start___ contains t
 
 For example, the *.data* section will look like
 ```
+.data
 data_start: 0x205A15E3 ;(0010 0000 0101 1010 0001 0101 1101 0011 – 13)
             0x256C8700 ;(0010 0101 0110 1100 1000 0111 0000 0000 – 11)
 data_end:   0x295468F2 ;(0010 1001 0101 0100 0110 1000 1111 0010 – 14)
